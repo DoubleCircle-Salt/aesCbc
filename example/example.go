@@ -1,14 +1,3 @@
-# aesCbc
-AESCBC/PKCS7Padding 加/解密
-
-
-## Installation
-```golang
-go get github.com/DoubleCircle-Salt/aesCbc
-```
-
-## Instruction
-```golang
 package main
 
 import (
@@ -33,5 +22,3 @@ func main(){
     }
     fmt.Println("decrypt: ", string(src))
 }
-```
-
